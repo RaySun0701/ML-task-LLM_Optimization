@@ -1,6 +1,6 @@
 **Please let me know if there is any problem with the access.**
 
-`Report_of_LLM-Optimization-task.md`: Report of the task
+`Report_on_Model_Optimization_Techniques.md`: Report of the task
 
 `quantization.ipynb`: Notebook of quantization approach (run on T4 GPU)
 
