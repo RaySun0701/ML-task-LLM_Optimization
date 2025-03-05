@@ -1,24 +1,14 @@
-**Still working on it. Will upload notebook and report later. Please let me know if there is any problem with the access.**
+**Please let me know if there is any problem with the access.**
+
+`Report_of_LLM-Optimization-task.md`: Report of the task
+
+`quantization.ipynb`: Notebook of quantization approach (run on T4 GPU)
+
+`knowledge_distillation.ipynb`: Notebook of knowledge distillation approach (run on T4 GPU)
 
 ### **Model Details:**
 - **Base Model:** `textattack/bert-base-uncased-imdb`
 - **Architecture:** A BERT-based model fine-tuned for sentiment classification on the IMDB dataset.
-- **Purpose:** The goal is to apply quantization to the model to improve inference speed while maintaining acceptable accuracy.
-
-### **Methodology for Quantization:**
-
-1. **Loading the Pre-trained Model & Tokenizer:**
-   - The model (`textattack/bert-base-uncased-imdb`) and its corresponding tokenizer are loaded.
-
-2. **Dataset Preparation:**
-   - The IMDB dataset is loaded using `datasets.load_dataset("imdb")`.
-   - A subset of 2000 test samples is randomly selected for evaluation.
-   - Tokenization is applied using the tokenizer with truncation and padding.
-
-3. **Quantization Process:**
-   - The `bitsandbytes` library is used to perform **4-bit quantization** on the model.
-   - The `bnb.QuantizedLinear` layers replace standard linear layers in the model.
-   - The quantized model is then evaluated for performance improvements.
 
 ### **Evaluation Metrics:**
 
