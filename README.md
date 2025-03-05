@@ -41,5 +41,3 @@ $$ \text{Speedup} = \frac{\text{Original Model Latency}}{\text{Quantized Model L
 Measures how much accuracy is retained after quantization.
 
 $$ \text{Accuracy Retention} = \frac{\text{Quantized Model Accuracy}}{\text{Original Model Accuracy}} $$
-
-These metrics are computed and compared between the **original** and **quantized** models.
