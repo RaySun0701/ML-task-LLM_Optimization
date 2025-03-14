@@ -1,5 +1,3 @@
-**Please let me know if there is any problem with the access.**
-
 `Report_on_Model_Optimization_Techniques.md`: Report of the task
 
 `quantization.ipynb`: Notebook of quantization approach (run on T4 GPU)
